@@ -27,6 +27,5 @@ public class Main {
         List<Flight> filteredFlights3 = FlightFilter.filterGroundTimeExceedsTwoHours(flights);
         filteredFlights3.forEach(flight -> System.out.println("Перелёт: " + flight));
 
-
         }
 }
